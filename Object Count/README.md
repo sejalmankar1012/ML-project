@@ -9,7 +9,7 @@ The project is structured as follows:
 ```
 - images/                   # Directory for storing input images
 - results/                  # Directory for storing output images with object count
-- object_count.py           # Python script for object counting
+- count.py           # Python script for object counting
 - README.md                 # Project overview and instructions
 ```
 
@@ -28,7 +28,7 @@ To run the code, make sure you have the following dependencies installed:
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/object-counting.git
+   git clone https://github.com/sejalmankar1012/object-counting.git
    ```
 
 2. Navigate to the project directory:
@@ -41,17 +41,17 @@ To run the code, make sure you have the following dependencies installed:
 
 1. Place the image you want to analyze in the `images/` directory.
 
-2. Run the `object_count.py` script:
+2. Run the `count.py` script:
 
    ```
-   python object_count.py --image images/your_image.jpg
+   python count.py --image images/Coins.jpg
    ```
 
    Replace `your_image.jpg` with the actual image filename you want to analyze.
 
 3. The script will process the image, detect objects, and generate an output image with the object count.
 
-4. The resulting image will be saved in the `results/` directory with the filename `your_image_count.jpg`.
+4. The resulting image will be saved in the `results/` directory with the filename `Coins.jpg`.
 
 ## Example Output
 
